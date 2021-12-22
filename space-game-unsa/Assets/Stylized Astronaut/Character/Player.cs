@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour {
 
+	public GameObject player;
 		private Animator anim;
 		private CharacterController controller;
 
@@ -12,8 +13,8 @@ public class Player : MonoBehaviour {
 		public float gravity = 20.0f;
 
 		void Start () {
-			controller = GetComponent <CharacterController>();
-			anim = gameObject.GetComponentInChildren<Animator>();
+			controller = player.GetComponent <CharacterController>();
+			anim = player.GetComponentInChildren<Animator>();
 		}
 
 		void Update (){

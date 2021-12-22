@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/VenusTerrain.unity
+- path: Assets/Scenes/EnemigosIA.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using System;
 
 public class Atacar : MonoBehaviour
 {
+    public Life life;
     public GameObject monster;
     public GameObject player;
     Animator anim;
@@ -13,10 +15,14 @@ public class Atacar : MonoBehaviour
     public float distanceAtack = 0.3f;
     float distance = 3.0f;
     NavMeshAgent myNavMeshAgent;
+    bool isAttack = false;
+    DateTime nextDamage;
+    double damageAfterTime = 1.0f;
     // Start is called before the first frame update
 
     void Start()
     {
+        nextDamage = DateTime.Now;
         myNavMeshAgent = GetComponent<NavMeshAgent>();
         transform = this.GetComponent<Transform>();
         positionPlayer = player.GetComponent<Transform>();
@@ -27,19 +33,31 @@ public class Atacar : MonoBehaviour
     void Update()
     {
         distance = Vector3.Distance(transform.position, positionPlayer.position);
-        Debug.Log(distance);
+        //Debug.Log(distance);
         if (distance < distanceAtack)
         {
-            this.anim.SetBool("atacar", true);
+            isAttack = true;
+            this.anim.SetBool("atacar", isAttack);
             myNavMeshAgent.SetDestination(positionPlayer.position);
         }
         else
         {
-            this.anim.SetBool("atacar", false);
+            isAttack = false;
+            this.anim.SetBool("atacar", isAttack);
         }
+        Golpear();
 
     }
-    private void OnCollisionEnter(Collision collision)
+    private void Golpear()
+    {
+        if (isAttack && nextDamage <= DateTime.Now)
+        {
+
+            life.RestarVida();
+            nextDamage = DateTime.Now.AddSeconds(System.Convert.ToDouble(damageAfterTime));
+        }
+    }
+    /*private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.name == "Player")
         {
@@ -51,6 +69,6 @@ public class Atacar : MonoBehaviour
             this.anim.SetBool("atacar", false);
         }
     }
-
+    */
 
 }

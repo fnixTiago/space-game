@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-17.26476287841797,"y":-15.348724365234375,"z":-9.099905014038086},"rotation":{"x":-0.26404300332069399,"y":0.5647093653678894,"z":-0.19701893627643586,"w":-0.7567148208618164},"size":66.20779418945313,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":216.23648071289063,"y":-161.21011352539063,"z":61.747314453125},"rotation":{"x":-0.0071339053101837639,"y":0.974547803401947,"z":-0.22242306172847749,"w":-0.030054235830903055},"size":284.85760498046877,"orthographic":false}
+>>>>>>> PlanetsTerrains

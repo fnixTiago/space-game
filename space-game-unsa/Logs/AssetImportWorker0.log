@@ -15,11 +15,19 @@ C:/Users/ACER/Desktop/Projects/space-game/space-game-unsa
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 55412
 Successfully changed project path to: C:/Users/ACER/Desktop/Projects/space-game/space-game-unsa
 C:/Users/ACER/Desktop/Projects/space-game/space-game-unsa
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 24.72 ms, found 0 plugins.
+=======
+55306
+Successfully changed project path to: C:/Users/ACER/Desktop/Projects/space-game/space-game-unsa
+C:/Users/ACER/Desktop/Projects/space-game/space-game-unsa
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 29.75 ms, found 0 plugins.
+>>>>>>> PlanetsTerrains
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,11 +43,16 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+>>>>>>> PlanetsTerrains
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.001728 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -50,9 +63,26 @@ Mono: successfully reloaded assembly
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 Registered in 0.000809 seconds.
-Begin MonoManager ReloadAssembly
+=======
+Registered in 0.001732 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 29.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000591 seconds.
+>>>>>>> PlanetsTerrains
+Begin MonoManager ReloadAssembly
+Symbol file data-00000148A0DCA3B0 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000148A0DCA3B0 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 29.90 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -142,5 +172,70 @@ System memory in use after: 76.5 MB.
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2022.
 Total: 1.845900 ms (FindLiveObjects: 0.158900 ms CreateObjectMapping: 0.174700 ms MarkObjects: 1.424300 ms  DeleteObjects: 0.086800 ms)
+=======
+Refreshing native plugins compatible for Editor in 28.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1581 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.9 MB.
+System memory in use after: 99.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2060.
+Total: 2.345500 ms (FindLiveObjects: 0.564200 ms CreateObjectMapping: 0.209500 ms MarkObjects: 1.476400 ms  DeleteObjects: 0.094500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/New Terrain 3.asset
+  artifactKey: Guid(b62a975c3727e1e4ea03e84bf576b4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 3.asset using Guid(b62a975c3727e1e4ea03e84bf576b4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9740ebe003efe1ac5ed4976034b0a875') in 0.060801 seconds
+  Import took 0.063371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(2487e6e567222aa479c787e4f1268d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(2487e6e567222aa479c787e4f1268d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8327ac38aae018cdec003d538cc856f') in 0.017431 seconds
+  Import took 0.019572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(c6f00d843577ec945a5d5a7c8a5b145f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(c6f00d843577ec945a5d5a7c8a5b145f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae84f72e45bf6f471077dedf710ba64') in 0.017437 seconds
+  Import took 0.020072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(8ae2e8e3d64b50a48bf5a260413aeede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(8ae2e8e3d64b50a48bf5a260413aeede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bd2300cd2af171457dff4eda29f442') in 0.017871 seconds
+  Import took 0.020433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/InputSystem.inputsettings.asset
+  artifactKey: Guid(704016ad082d74a49a5077e6915d6431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem.inputsettings.asset using Guid(704016ad082d74a49a5077e6915d6431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923aaa61e7cea992e5147656acc18710') in 0.007159 seconds
+  Import took 0.010082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(6952011b103414b44b92fdeb9bb8b6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(6952011b103414b44b92fdeb9bb8b6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f319c85935052fe6aac8d57a413b27a5') in 0.034813 seconds
+  Import took 0.036986 seconds .
+>>>>>>> PlanetsTerrains
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

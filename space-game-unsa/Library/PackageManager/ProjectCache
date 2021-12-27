@@ -5,26 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-      ticks: 637760970496083962
-    m_Hash: 2036875372
-=======
-      ticks: 637761959256234897
+      ticks: 637762103446917270
     m_Hash: 1121113821
->>>>>>> santi
   m_LockFileStatus:
     m_FilePath: C:/Users/ACER/Desktop/Projects/space-game/space-game-unsa/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-      ticks: 637760970496083962
-    m_Hash: 2644089710
-=======
-      ticks: 637761959256274843
+      ticks: 637762103446917270
     m_Hash: 2176512476
->>>>>>> santi
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

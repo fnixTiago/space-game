@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour
 {
-
+    public Transform PuntoInicio;
     public GameObject player;
     private Animator anim;
     private CharacterController controller;
@@ -15,8 +15,12 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        this.transform.position = PuntoInicio.position;
         controller = player.GetComponent<CharacterController>();
         anim = player.GetComponentInChildren<Animator>();
+    }
+    public void Reiniciar() { 
+        this.transform.position = PuntoInicio.position;
     }
 
     void Update()

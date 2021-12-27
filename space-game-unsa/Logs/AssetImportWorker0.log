@@ -15,11 +15,11 @@ C:/Users/ACER/Desktop/Projects/space-game/space-game-unsa
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54604
+54804
 Successfully changed project path to: C:/Users/ACER/Desktop/Projects/space-game/space-game-unsa
 C:/Users/ACER/Desktop/Projects/space-game/space-game-unsa
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.21 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,140 +35,63 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001665 seconds.
+Registered in 0.001646 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 33.90 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
+- Completed reload, in  0.892 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000865 seconds.
+Registered in 0.001109 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 33.17 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 33.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
+- Completed reload, in  0.873 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.6 MB.
 System memory in use after: 100.7 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2304.
-Total: 1.851600 ms (FindLiveObjects: 0.269900 ms CreateObjectMapping: 0.080300 ms MarkObjects: 1.400100 ms  DeleteObjects: 0.100600 ms)
+Total: 1.898000 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.064200 ms MarkObjects: 1.557900 ms  DeleteObjects: 0.092600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Stylized Astronaut/Character/Materials/Grey_Mat.mat
-  artifactKey: Guid(bd5105e1f39844b4daded70961d0174f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Character/Materials/Grey_Mat.mat using Guid(bd5105e1f39844b4daded70961d0174f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02b5520cc31ded73706a803b4089c67') in 0.092723 seconds
-  Import took 0.095381 seconds .
+  path: Assets/Scenes/Astronauta.unity
+  artifactKey: Guid(5e1425aae7111984c8360bfd283f4e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Astronauta.unity using Guid(5e1425aae7111984c8360bfd283f4e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63391295a7ed66d54f14f059ee88b0c') in 0.010444 seconds
+  Import took 0.012834 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Stylized Astronaut/Character/Materials/Yellow_Mat.mat
-  artifactKey: Guid(d2c8f925eb40c4748811efdd803f25c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Character/Materials/Yellow_Mat.mat using Guid(d2c8f925eb40c4748811efdd803f25c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51780ed9cbf09a217ccc84fea8028764') in 0.015892 seconds
-  Import took 0.018222 seconds .
+  Time since last request: 2.315540 seconds.
+  path: Assets/Scenes/ExampleAstronauta.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ExampleAstronauta.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1893671047eae0a0195c75b4a08c2891') in 0.006935 seconds
+  Import took 0.009312 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Stylized Astronaut/Character/Materials/Player_Grey.mat
-  artifactKey: Guid(504de749432051d45a6904b4b3b8feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Character/Materials/Player_Grey.mat using Guid(504de749432051d45a6904b4b3b8feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7985649481211fb385612a1035264b1b') in 0.010788 seconds
-  Import took 0.013498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Stylized Astronaut/Character/Materials/Player_White.mat
-  artifactKey: Guid(c588f581862bdd84d97842bf2c05f96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Character/Materials/Player_White.mat using Guid(c588f581862bdd84d97842bf2c05f96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b095e721adda0a866a68c1d30c0591b') in 0.011223 seconds
-  Import took 0.013907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Stylized Astronaut/Character/Materials/White_Mat.mat
-  artifactKey: Guid(06eb4e637b7ef614e9265f48c542664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Character/Materials/White_Mat.mat using Guid(06eb4e637b7ef614e9265f48c542664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f0686fc83b1331b993182b4f74af04') in 0.009813 seconds
-  Import took 0.012323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Stylized Astronaut/Character/Materials/Player_Helm.mat
-  artifactKey: Guid(52ba14159227c264fae07d7b3e603fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Character/Materials/Player_Helm.mat using Guid(52ba14159227c264fae07d7b3e603fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15363d852d3238d1a725ca1cdd3fcd4') in 0.009945 seconds
-  Import took 0.012389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.949761 seconds.
-  path: Assets/Stylized Astronaut/Character/Player.cs
-  artifactKey: Guid(33e19da6a22259d4299a67d51a3c65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Character/Player.cs using Guid(33e19da6a22259d4299a67d51a3c65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c12e035345bd3a6cc497f73b1c7e6c') in 0.003947 seconds
-  Import took 0.006437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020452 seconds.
-  path: Assets/Stylized Astronaut/Character/Player.cs
-  artifactKey: Guid(33e19da6a22259d4299a67d51a3c65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Character/Player.cs using Guid(33e19da6a22259d4299a67d51a3c65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c12e035345bd3a6cc497f73b1c7e6c') in 0.002099 seconds
-  Import took 0.004698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.355417 seconds.
-  path: Assets/Stylized Astronaut/Character/ThirdPersonCamera.cs
-  artifactKey: Guid(fc3e9bd2af4844e4cb734482f04baa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Character/ThirdPersonCamera.cs using Guid(fc3e9bd2af4844e4cb734482f04baa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de98abcd0587720e575c4a1555c41fbb') in 0.005091 seconds
-  Import took 0.007752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Stylized Astronaut/Character/ThirdPersonCamera.cs
-  artifactKey: Guid(fc3e9bd2af4844e4cb734482f04baa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Character/ThirdPersonCamera.cs using Guid(fc3e9bd2af4844e4cb734482f04baa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de98abcd0587720e575c4a1555c41fbb') in 0.001581 seconds
-  Import took 0.004132 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000856 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1800 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.7 MB.
-System memory in use after: 100.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2345.
-Total: 1.946100 ms (FindLiveObjects: 0.164300 ms CreateObjectMapping: 0.061800 ms MarkObjects: 1.611900 ms  DeleteObjects: 0.107600 ms)
+  Time since last request: 5.292642 seconds.
+  path: Assets/Scenes/JupiterTerrainScene.unity
+  artifactKey: Guid(7ab71f7882543eb4b8994e9775414e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JupiterTerrainScene.unity using Guid(7ab71f7882543eb4b8994e9775414e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0246c2bb9229a6963c17f5752304e04') in 0.008035 seconds
+  Import took 0.010457 seconds .
 
 ========================================================================
 Received Prepare
@@ -180,39 +103,23 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.713 seconds
+- Completed reload, in  0.728 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.8 MB.
-System memory in use after: 100.8 MB.
+System memory in use before: 97.4 MB.
+System memory in use after: 97.5 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2350.
-Total: 1.821000 ms (FindLiveObjects: 0.184000 ms CreateObjectMapping: 0.065700 ms MarkObjects: 1.509100 ms  DeleteObjects: 0.061200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 179.035246 seconds.
-  path: Assets/Stylized Astronaut/Stylized Astronaut.prefab
-  artifactKey: Guid(2abf19653d633114faedf3b60dc6c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Stylized Astronaut.prefab using Guid(2abf19653d633114faedf3b60dc6c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a390103d17006efd2f21c7060c1891c') in 0.029837 seconds
-  Import took 0.032955 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2307.
+Total: 1.660500 ms (FindLiveObjects: 0.190100 ms CreateObjectMapping: 0.054500 ms MarkObjects: 1.360600 ms  DeleteObjects: 0.054600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.439360 seconds.
-  path: Assets/Stylized Astronaut/Stylized Astronaut.prefab
-  artifactKey: Guid(2abf19653d633114faedf3b60dc6c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Stylized Astronaut.prefab using Guid(2abf19653d633114faedf3b60dc6c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46076da1fe7dde249308388622758bf8') in 0.003442 seconds
-  Import took 0.007021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.852232 seconds.
-  path: Assets/Stylized Astronaut/Demo/DemoScene.unity
-  artifactKey: Guid(e2224b88424b4f0469748624439f318e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Demo/DemoScene.unity using Guid(e2224b88424b4f0469748624439f318e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e24eee055810693280af5bab0cd828') in 0.006137 seconds
-  Import took 0.008703 seconds .
+  Time since last request: 45.820558 seconds.
+  path: Assets/Scenes/Astronauta.unity
+  artifactKey: Guid(5e1425aae7111984c8360bfd283f4e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Astronauta.unity using Guid(5e1425aae7111984c8360bfd283f4e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c03f8a6077dbfdca1382c3c80eee05f') in 0.012990 seconds
+  Import took 0.015407 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

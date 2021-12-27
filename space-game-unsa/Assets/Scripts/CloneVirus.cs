@@ -6,12 +6,13 @@ public class CloneVirus : MonoBehaviour
 {
     public int CantidadVirus = 1;
     public GameObject prefab;
+    public Transform positionCrear;
     // Start is called before the first frame update
     void Start()
     {
         for (int i = 0; i < CantidadVirus; i++)
         {
-            Instantiate(prefab, new Vector3(0, 10, 0), Quaternion.identity);
+            Instantiate(prefab, positionCrear.position, Quaternion.identity);
         }
     }
 

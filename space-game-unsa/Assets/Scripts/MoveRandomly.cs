@@ -20,8 +20,8 @@ public class MoveRandomly : MonoBehaviour
         path = new NavMeshPath();
     }
     Vector3 getNewRandomPosition() {
-        float x = Random.Range(-120, 120);
-        float z = Random.Range(-120, 120);
+        float x = Random.Range(-400, 400);
+        float z = Random.Range(-400, 400);
         Vector3 pos = new Vector3(x, 0, z);
         return pos;
     }

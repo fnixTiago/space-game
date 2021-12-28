@@ -5,8 +5,32 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MenuSpace.unity
+    guid: f6f893d0212afcd4eb53df92262539d1
+  - enabled: 1
+    path: Assets/Scenes/TierraTerrainScene.unity
+    guid: bba2aec349e852b488095953b39620fb
+  - enabled: 1
+    path: Assets/Scenes/VenusTerrainScene.unity
+    guid: 03a1d42960b060d469445b4768f11aa3
+  - enabled: 1
+    path: Assets/Scenes/UranoTerrain.unity
+    guid: d0bb9c0549748664bb9b47f926bf1d30
+  - enabled: 1
+    path: Assets/Scenes/SaturnoTerrainScene.unity
+    guid: 44bd6edec12c83a43a5b262a09b7cdec
+  - enabled: 1
+    path: Assets/Scenes/NeptunoTerrain.unity
+    guid: dc166cabc74811c4b871bc0c9cf26059
+  - enabled: 1
+    path: Assets/Scenes/MercuryTerrain.unity
+    guid: 15217ed926a5e1544bc1809b771fb87b
+  - enabled: 1
+    path: Assets/Scenes/JupiterTerrainScene.unity
+    guid: 7ab71f7882543eb4b8994e9775414e8f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 704016ad082d74a49a5077e6915d6431, type: 2}

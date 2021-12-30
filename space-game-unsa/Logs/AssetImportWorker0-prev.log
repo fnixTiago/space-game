@@ -15,11 +15,11 @@ C:/Users/ACER/Desktop/Projects/space-game/space-game-unsa
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59348
+60266
 Successfully changed project path to: C:/Users/ACER/Desktop/Projects/space-game/space-game-unsa
 C:/Users/ACER/Desktop/Projects/space-game/space-game-unsa
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 29.07 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,106 +35,507 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001684 seconds.
+Registered in 0.001859 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 30.95 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 32.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
+- Completed reload, in  0.916 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000586 seconds.
+Registered in 0.000651 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001AB7C662010 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-0000012F70496DB0 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AB76AFE7F0 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-0000012F70496DB0 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 30.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.14 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.826 seconds
+- Completed reload, in  0.817 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1584 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.9 MB.
-System memory in use after: 100.9 MB.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.8 MB.
+System memory in use after: 120.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2065.
-Total: 2.170300 ms (FindLiveObjects: 0.281900 ms CreateObjectMapping: 0.131800 ms MarkObjects: 1.607200 ms  DeleteObjects: 0.148500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/VenusTerrainScene.unity
-  artifactKey: Guid(03a1d42960b060d469445b4768f11aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VenusTerrainScene.unity using Guid(03a1d42960b060d469445b4768f11aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcb009c3681ddcdbd92b74d51a930c3') in 0.015414 seconds
-  Import took 0.017687 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2091.
+Total: 1.796600 ms (FindLiveObjects: 0.192100 ms CreateObjectMapping: 0.085300 ms MarkObjects: 1.430900 ms  DeleteObjects: 0.087300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.116900 seconds.
-  path: Assets/Scenes/VenusTerrainScene.unity
-  artifactKey: Guid(03a1d42960b060d469445b4768f11aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VenusTerrainScene.unity using Guid(03a1d42960b060d469445b4768f11aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abee3509eaaedc35c05c65ad4a9d7f1f') in 0.004000 seconds
-  Import took 0.006483 seconds .
+  path: Assets/Scenes/JupiterTerrainScene.unity
+  artifactKey: Guid(7ab71f7882543eb4b8994e9775414e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/JupiterTerrainScene.unity using Guid(7ab71f7882543eb4b8994e9775414e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83d2e878fc281b2709d7b5a74b3fcd9') in 0.012951 seconds
+  Import took 0.015105 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.218889 seconds.
-  path: Assets/Scenes/UranoTerrain.unity
-  artifactKey: Guid(d0bb9c0549748664bb9b47f926bf1d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/UranoTerrain.unity using Guid(d0bb9c0549748664bb9b47f926bf1d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bfe4be37d2423d9c456722a7af4886') in 0.008294 seconds
-  Import took 0.010960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.413258 seconds.
-  path: Assets/Scenes/SaturnoTerrainScene.unity
+  Time since last request: 56.743014 seconds.
+  path: Assets/Scenes/Saturno.unity
   artifactKey: Guid(44bd6edec12c83a43a5b262a09b7cdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SaturnoTerrainScene.unity using Guid(44bd6edec12c83a43a5b262a09b7cdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ff2aa92ad6d285d0acdb4bae79eb8a') in 0.004147 seconds
-  Import took 0.006557 seconds .
+Start importing Assets/Scenes/Saturno.unity using Guid(44bd6edec12c83a43a5b262a09b7cdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef202c05eb1f04b55a74c684316e22b0') in 0.005545 seconds
+  Import took 0.008719 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.151812 seconds.
-  path: Assets/Scenes/NeptunoTerrain.unity
+  Time since last request: 4.816784 seconds.
+  path: Assets/Scenes/Tierra.unity
+  artifactKey: Guid(bba2aec349e852b488095953b39620fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tierra.unity using Guid(bba2aec349e852b488095953b39620fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c23e5389baacb5a0971704e2a063c3b') in 0.005982 seconds
+  Import took 0.009308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.592922 seconds.
+  path: Assets/Scenes/Urano.unity
+  artifactKey: Guid(d0bb9c0549748664bb9b47f926bf1d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Urano.unity using Guid(d0bb9c0549748664bb9b47f926bf1d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5700ddab682f7d29ae3547bc7dcac36') in 0.005689 seconds
+  Import took 0.008623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.333534 seconds.
+  path: Assets/Scenes/Venus.unity
+  artifactKey: Guid(03a1d42960b060d469445b4768f11aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Venus.unity using Guid(03a1d42960b060d469445b4768f11aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f7bce3f7143fcfc73beff50ccaa991') in 0.005536 seconds
+  Import took 0.008881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.854716 seconds.
+  path: Assets/Scenes/Neptuno.unity
   artifactKey: Guid(dc166cabc74811c4b871bc0c9cf26059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/NeptunoTerrain.unity using Guid(dc166cabc74811c4b871bc0c9cf26059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e611a6ba9129470721884d4bcc3c610') in 0.002798 seconds
-  Import took 0.005256 seconds .
+Start importing Assets/Scenes/Neptuno.unity using Guid(dc166cabc74811c4b871bc0c9cf26059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a83fbcae02a7245703c2282fe82e27') in 0.005627 seconds
+  Import took 0.008719 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.284147 seconds.
-  path: Assets/Scenes/MercuryTerrain.unity
+  Time since last request: 7.539009 seconds.
+  path: Assets/Scenes/Mercurio.unity
   artifactKey: Guid(15217ed926a5e1544bc1809b771fb87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MercuryTerrain.unity using Guid(15217ed926a5e1544bc1809b771fb87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f785261bfdc2e4c7a9dc232988bc20e') in 0.003019 seconds
-  Import took 0.006097 seconds .
+Start importing Assets/Scenes/Mercurio.unity using Guid(15217ed926a5e1544bc1809b771fb87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc7429b4e4eb21c2487362a3a26fc61') in 0.006500 seconds
+  Import took 0.009365 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.528857 seconds.
-  path: Assets/Scenes/JupiterTerrainScene.unity
-  artifactKey: Guid(7ab71f7882543eb4b8994e9775414e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/JupiterTerrainScene.unity using Guid(7ab71f7882543eb4b8994e9775414e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a23d6a61e2b6e6ad47cfbe02fbfd93') in 0.002931 seconds
-  Import took 0.005549 seconds .
+  Time since last request: 7.683370 seconds.
+  path: Assets/Scenes/Marte.unity
+  artifactKey: Guid(ae559c93332e89440a3870e9624ec8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Marte.unity using Guid(ae559c93332e89440a3870e9624ec8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cf495083b69f16ed48c81c6fac5574') in 0.005421 seconds
+  Import took 0.007862 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000579 seconds.
-  path: Assets/Scenes/JupiterTerrainScene.unity
+  Time since last request: 3.929164 seconds.
+  path: Assets/Scenes/Jupiter.unity
   artifactKey: Guid(7ab71f7882543eb4b8994e9775414e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/JupiterTerrainScene.unity using Guid(7ab71f7882543eb4b8994e9775414e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a23d6a61e2b6e6ad47cfbe02fbfd93') in 0.003197 seconds
-  Import took 0.005531 seconds .
+Start importing Assets/Scenes/Jupiter.unity using Guid(7ab71f7882543eb4b8994e9775414e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4d7b3e61c0f319167fb781aa7586a1') in 0.005849 seconds
+  Import took 0.008410 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000674 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000012F75E9F010 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012F7093B020 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1596 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 119.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2108.
+Total: 1.792700 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.047300 ms MarkObjects: 1.378900 ms  DeleteObjects: 0.133500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.433773 seconds.
+  path: Assets/Scenes/Juego.unity
+  artifactKey: Guid(7ead0feb66af9fe46b594fc63547c567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Juego.unity using Guid(7ead0feb66af9fe46b594fc63547c567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903693f2ca8799a1c87244f87f97927d') in 0.015997 seconds
+  Import took 0.019241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.184257 seconds.
+  path: Assets/Scenes/MarteSettings.lighting
+  artifactKey: Guid(1a154c9671b28548ba63748fb35452d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MarteSettings.lighting using Guid(1a154c9671b28548ba63748fb35452d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'cadea303b874508de87790136d4a7e51') in 0.021947 seconds
+  Import took 0.024770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004914 seconds.
+  path: Assets/Scenes/MarteSettings.lighting
+  artifactKey: Guid(1a154c9671b28548ba63748fb35452d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MarteSettings.lighting using Guid(1a154c9671b28548ba63748fb35452d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'cadea303b874508de87790136d4a7e51') in 0.002524 seconds
+  Import took 0.004894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.506315 seconds.
+  path: Assets/Scenes/Marte.unity
+  artifactKey: Guid(db73adb2414556b40afc0390a07f53d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Marte.unity using Guid(db73adb2414556b40afc0390a07f53d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb898b465b62668d7faef81f871bcdda') in 0.002077 seconds
+  Import took 0.014369 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001088 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000012F78F07180 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012F796FBC20 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1596 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 119.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2111.
+Total: 2.329600 ms (FindLiveObjects: 0.310000 ms CreateObjectMapping: 0.156400 ms MarkObjects: 1.783200 ms  DeleteObjects: 0.078400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000818 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000012F75E9F010 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012F796FBC20 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1596 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.2 MB.
+System memory in use after: 119.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2114.
+Total: 2.041800 ms (FindLiveObjects: 0.332400 ms CreateObjectMapping: 0.127300 ms MarkObjects: 1.494200 ms  DeleteObjects: 0.086700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.720371 seconds.
+  path: Assets/NewLayer 1.terrainlayer
+  artifactKey: Guid(2973bee1ec22b6945a33a578a7a71300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 1.terrainlayer using Guid(2973bee1ec22b6945a33a578a7a71300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f440d523e45a3e6c0b746d3c501fc8cd') in 0.054868 seconds
+  Import took 0.057425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/NewLayer 2.terrainlayer
+  artifactKey: Guid(9ce50f78fe59e5d47a2e5b9f1b07007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 2.terrainlayer using Guid(9ce50f78fe59e5d47a2e5b9f1b07007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06df70b5dab09a72f9d1141ae03215c4') in 0.009260 seconds
+  Import took 0.011461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(c3bc479ae757b0d43974c6aba3e02e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(c3bc479ae757b0d43974c6aba3e02e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9c1e04c719db0f68a54054c7bba64b') in 0.009844 seconds
+  Import took 0.012598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.084458 seconds.
+  path: Assets/LoadScene.cs
+  artifactKey: Guid(0aa4946e01bfb6e448635a3ea80ff64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoadScene.cs using Guid(0aa4946e01bfb6e448635a3ea80ff64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f3e79b5fdd08ca34a8032a354ee565d') in 0.012403 seconds
+  Import took 0.015027 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000729 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000012F760C1020 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012F9B399010 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2123.
+Total: 2.696400 ms (FindLiveObjects: 0.303500 ms CreateObjectMapping: 0.129100 ms MarkObjects: 2.152300 ms  DeleteObjects: 0.110000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000762 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000012F70682210 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012F793CF6A0 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2126.
+Total: 2.181100 ms (FindLiveObjects: 0.180000 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.804300 ms  DeleteObjects: 0.136700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.744799 seconds.
+  path: Assets/LoadScene.cs
+  artifactKey: Guid(0aa4946e01bfb6e448635a3ea80ff64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LoadScene.cs using Guid(0aa4946e01bfb6e448635a3ea80ff64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0d0efd0b11df10d74d80a457243d74') in 0.004718 seconds
+  Import took 0.007344 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000698 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000012F70682210 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012F9CD7F9D0 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.728 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2129.
+Total: 1.703500 ms (FindLiveObjects: 0.175900 ms CreateObjectMapping: 0.060800 ms MarkObjects: 1.390700 ms  DeleteObjects: 0.074800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.728947 seconds.
+  path: Assets/Scenes/MenuSpace.unity
+  artifactKey: Guid(f6f893d0212afcd4eb53df92262539d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuSpace.unity using Guid(f6f893d0212afcd4eb53df92262539d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06257f5b3d5b6f1e2132f1fa33f144a9') in 0.022691 seconds
+  Import took 0.025187 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000665 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000012F70682210 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012F793CF6A0 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.858 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.3 MB.
+System memory in use after: 122.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2132.
+Total: 1.927200 ms (FindLiveObjects: 0.243500 ms CreateObjectMapping: 0.082000 ms MarkObjects: 1.525400 ms  DeleteObjects: 0.075300 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.7 MB.
+System memory in use after: 90.8 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2132.
+Total: 1.954900 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.100300 ms MarkObjects: 1.500900 ms  DeleteObjects: 0.081000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000598 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000012F70682210 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012F9CD7F7F0 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.752 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.9 MB.
+System memory in use after: 123.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2135.
+Total: 2.115400 ms (FindLiveObjects: 0.321500 ms CreateObjectMapping: 0.142200 ms MarkObjects: 1.554900 ms  DeleteObjects: 0.093600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000728 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000012F70682210 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012F9CD7F7F0 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.746 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.9 MB.
+System memory in use after: 123.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2138.
+Total: 2.130100 ms (FindLiveObjects: 0.277800 ms CreateObjectMapping: 0.072900 ms MarkObjects: 1.680400 ms  DeleteObjects: 0.097400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000734 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000012F790C3060 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012F793CF6A0 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.0 MB.
+System memory in use after: 123.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2141.
+Total: 2.162000 ms (FindLiveObjects: 0.319900 ms CreateObjectMapping: 0.084600 ms MarkObjects: 1.635600 ms  DeleteObjects: 0.119800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000944 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000012F9CC34030 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012F793CF6A0 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.824 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.0 MB.
+System memory in use after: 123.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2144.
+Total: 3.256600 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.093200 ms MarkObjects: 2.754000 ms  DeleteObjects: 0.116500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000819 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000012F9CC34030 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000012F793CF6A0 doesn't match image C:\Users\ACER\Desktop\Projects\space-game\space-game-unsa\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.0 MB.
+System memory in use after: 123.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2147.
+Total: 1.694700 ms (FindLiveObjects: 0.177600 ms CreateObjectMapping: 0.064400 ms MarkObjects: 1.366200 ms  DeleteObjects: 0.084700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
